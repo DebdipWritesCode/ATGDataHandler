@@ -7,7 +7,7 @@ const Navbar = () => {
         <h2 className=" font-black text-[32px] text-[#577af8]">Users</h2>
         <FaRegUser size={24} fill="#577af8" />
       </div>
-      <p className=" font-bold text-lg">Created by Debdip Mukherjee</p>
+      <p className=" font-bold text-lg max-sm:hidden">Created by Debdip Mukherjee</p>
     </nav>
   )
 }

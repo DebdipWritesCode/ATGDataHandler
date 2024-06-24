@@ -2,7 +2,7 @@ import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 
 const Pagination = ({ page, setPage, isNextPage }) => {
     return (
-        <div className={` flex ${(page > 1 && isNextPage) ? 'justify-between' : 'justify-center'} w-[60%]`}>
+        <div className={` flex ${(page > 1 && isNextPage) ? 'justify-between' : 'justify-center'} w-[60%] max-sm:w-[80%]`}>
             {
                 page > 1 && (
                     <button onClick={() => setPage(page - 1)} className=" flex gap-2 p-2 rounded-lg font-mw hover:bg-blue-100">
