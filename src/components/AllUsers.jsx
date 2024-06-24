@@ -29,7 +29,6 @@ const AllUsers = () => {
         try {
             const response = await axios.get(url + query)
             setUsers(response.data)
-            console.log(response.data)
             setLoading(false)
         }
         catch (err) {
